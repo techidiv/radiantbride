@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RadiantBride Studio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            animation: fadeInUp 1s ease-in-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        h1 {
+            color: #d35400;
+            margin: 0;
+            font-size: 2em;
+        }
+
+        p {
+            color: #555;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s ease-in-out;
+            cursor: pointer;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        h2 {
+            color: #d35400;
+            border-bottom: 2px solid #d35400;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        a {
+            color: #d35400;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>RadiantBride Studio</h1>
+        <p>Where Radiance Meets Elegance</p>
+    </header>
+
+    <section>
+        <h2>Welcome to Our Bridal Makeup Studio</h2>
+        <p>RadiantBride Studio is dedicated to ensuring you look and feel your best on your special day. Specializing in creating stunning bridal looks, I, as your experienced makeup artist, focus on enhancing your natural beauty for an unforgettable radiance.</p>
+    </section>
+
+    <section>
+        <h2>Services</h2>
+        <ul>
+            <li>Bridal Makeup</li>
+            <li>Pre-Wedding Makeup</li>
+            <li>Bridesmaid Makeup</li>
+            <li>Makeup Consultations</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Contact Us</h2>
+        <p>For inquiries and bookings, please contact us at <a href="mailto:info@radiantbridestudio.com">info@radiantbridestudio.com</a>.</p>
+    </section>
+
+    <section>
+        <h2>Portfolio</h2>
+        <div class="gallery">
+            <img src="img/1.jpg" alt="Bridal Makeup 1">
+            <img src="img/2.jpg" alt="Bridal Makeup 2">
+            <img src="img/3.jpg" alt="Bridal Makeup 3">
+            <img src="img/4.jpg" alt="Bridal Makeup 4">
+            <img src="img/5.jpg" alt="Bridal Makeup 5">
+            <img src="img/7.jpg" alt="Bridal Makeup 6">
+        </div>
+    </section>
+
+    <footer>
